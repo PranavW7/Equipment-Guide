@@ -1,0 +1,18 @@
+GET http://localhost:3000/laptops
+
+###
+GET http://localhost:3000/laptops/640bac882a1255b35e4f89a2
+
+###
+POST http://localhost:3000/laptops
+Content-Type: application/json
+
+{
+    "name": "Lenovo",
+    "cpu": "Intel",
+    "ram": "8GB"
+}
+
+###
+DELETE http://localhost:3000/laptops/640bac882a1255b35e4f89a2
+

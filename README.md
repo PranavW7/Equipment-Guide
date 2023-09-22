@@ -1,1 +1,1 @@
-# Equipment-Guide
+# Laptop Guide
